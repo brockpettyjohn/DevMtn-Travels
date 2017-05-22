@@ -30,6 +30,9 @@
     <section class="home-page-top-container">
         <header>
             <nav>
+                {{locations}}
+                {{packages}}
+                {{booked}}
                 <ul>
                     <!--Navigation section, this is where you will put your ui-sref's so you can naviagte to different views -->
                     <li><a>Locations</a></li>
@@ -58,7 +61,9 @@
 
 <!--Our Custom Script Files-->
 <script src="./js/app.js"></script>
-
-
+<script src="./controllers/bookedCtrl.js"></script>
+<script src="./controllers/locationsCtrl.js"></script>
+<script src="./controllers/packagesCtrl.js"></script>
+<script src="./js/app.js"></script>
 </body>
 </html>
